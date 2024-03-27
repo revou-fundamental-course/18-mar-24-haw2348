@@ -1,0 +1,96 @@
+.header-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: bisque;
+}
+
+.img-slideshow {
+    
+    width: 100%;
+    height: 75%;
+    
+}
+
+.nav-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+
+hr {
+    margin: 0px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    background-image: url(../assets/Fv1ACm5aMAIPSy-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container > button {
+    height: 25px;
+}
+
+.section-container {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.section-container>header {
+    text-align: center;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+.name-input {
+    height: 24px;
+    width: 50%;
+    border: 1px solid darkgreen;
+    border-radius: 16px;
+}
+
+.button {
+    height: 24px;
+    width: 64px;
+    color: wheat;
+    background-color: brown;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.section-container2>header {
+    text-align: center;
+}
+
+.section-content-negara {
+    display: flex;
+}
+
+.section-content-indo {
+    display: flex;
+}
+
+.section-container-closing>header {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    text-align: center;
+}
