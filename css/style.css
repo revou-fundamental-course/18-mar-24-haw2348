@@ -36,10 +36,10 @@ hr {
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
+    width: 64px;
+    height: 64px;
     border: 1px solid;
-    background-image: url(../assets/Fv1ACm5aMAIPSy-.jpg);
+    background-image: url(../assets/travel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -94,3 +94,17 @@ hr {
     padding-bottom: 24px;
     text-align: center;
 }
+
+.button-cta {
+    
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

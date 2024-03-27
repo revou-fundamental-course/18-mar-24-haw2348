@@ -18,7 +18,7 @@
 
     <section class="section-container"> 
         <header>
-            <h1>Flow Go Tour</h1>
+            <h1>FlowGo Tour</h1>
             <h3> Flawless Tour Agent</h3>
         </header>
 
@@ -43,33 +43,36 @@
             </div>
             
             <!--Ini Konten Form-->
-            <div style="height: 200px; width: 100%;
-                background-color: cadetblue; margin-left: 16px;">
+            <div style="height: 500px; width: 100%;
+                background-color:cornflowerblue; margin-left: 16px;">
                 
                 <!--<button id="tombol">Ganti nama</button> -->
 
-                <form name="message-form" onsubmit="return validateForm()">
-                    Nama: <input placeholder="Nama" type="text" name="full-name" />
+                
+                
+                <form name="message-form" onsubmit="return validateForm()" style="margin-right: 32px; margin-left: 72px; margin-top: 80px; margin-bottom: 32px">
+                    <h1>Hi, Traveller. Nice to meet you!</h1>
+
+                    Nama:<br> <input placeholder="Nama" type="text" name="full-name" />
                     <br />
 
-                    Tanggal Lahir:
+                    Tanggal Lahir:<br>
                     <input type="date" name="birth-date" />
                     <br />
 
-                    Jenis Kelamin:
+                    Jenis Kelamin:<br>
                     <input type="radio" id="male" name="gender" value="male" />
                     <label for="male">Laki-laki</label>
                     <input type="radio" id="female" name="gender" value="male" />
                     <label for="female">Perempuan</label>
                     <br />
 
-                    Pesan:
+                    Pesan:<br>
                     <textarea placeholder="Pesan" name="messages"></textarea>
                     <br />
 
                     <input type="submit" value="submit" />
                     
-                    <h1>Hi, this is <span id="name">-</span>. Nice to meet you!</h1>
 
                 </form> 
 
@@ -87,27 +90,43 @@
     
         <div class="section-content-negara">
             <!--Ini Konten Bali-->
-            <div style="height: 200px;width: 30%;
-                background-color: blanchedalmond; margin-right: 16px;">
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 16px; padding-left: 64px;">
+                <h3>Bali</h3>
+                <h6>Travel dan wisata di Bali.<br>Kunjungi cagar budaya dan<br>kuliner yang menarik</h6>
             </div>
             <!--Ini Konten Japan -->
-            <div style="height: 200px;width: 30%; background-color: aqua;"></div>
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 8px; padding-top: 16px; padding-left: 64px;">
+                <h3>Japan</h3>
+                <h6>Travel dan wisata di Japan.<br>kunjungi cagar budaya dan<br>kuliner yang menarik</h6>
+            </div>
 
             <!--Ini Konten Singapore -->
-            <div style="height: 200px;width: 30%; background-color:beige;"></div>
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 16px; padding-left: 64px;">
+                <h3>Singapore</h3>
+                <h6>This description supports<br>and extends the bullet point<br>above</h6>
+            </div>
             
         </div>
 
         <div class="section-content-indo">
         
             <!--Ini Konten Bandung -->
-            <div style="height: 200px;width: 30%; background-color:blueviolet"></div>
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 8px; padding-top: 16px; padding-left: 64px;">
+                <h3>Bandung</h3>
+                <h6>This description supports<br>and extends the bullet point<br>above</h6>
+            </div>
 
             <!--Ini Konten Surabaya -->
-            <div style="height: 200px;width: 30%; background-color:rgb(137, 125, 149)"></div>
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 8px; padding-top: 16px; padding-left: 64px;">
+                <h3>Surabaya</h3>
+                <h6>This description supports<br>and extends the bullet point<br>above</h6>
+            </div>
 
-            <!--Ini Konten Bandung -->
-            <div style="height: 200px;width: 30%; background-color:blueviolet"></div>
+            <!--Ini Konten Third Feature -->
+            <div style="height: 200px;width: 30%; background-color:rgb(230, 230, 230); margin-right: 4px; margin-left: 4px; padding-top: 8px; padding-top: 16px; padding-left: 64px;">
+                <h3>Third Feature</h3>
+                <h6>This description supports<br>and extends the bullet point<br>above</h6>
+            </div>
 
         </div>
     </section>
@@ -116,7 +135,9 @@
         <header>
             <h1>Thankyou For Reach Us</h1>
             <h3> Hope you can find next dream place fot your journey or holiday</h3>
+            <button class="button-cta">Chat Us</button>
         </header>
+    </section>    
     
 </body>
   
